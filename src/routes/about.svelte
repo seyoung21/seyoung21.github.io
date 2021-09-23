@@ -3,17 +3,22 @@
 </script>
 
 <script lang="ts">
-	
+	  import Intro from "$lib/Intro.svelte";
 </script>
 
 <svelte:head>
-	<title>Park Seyoung</title>
+	<title>About</title>
 </svelte:head>
 
-<div>
-  
+<div class="container">
+    <Intro />
 </div>
 
 <style>
-	
+	  .container {
+    max-width: 72rem;
+    width: 100%;
+    margin: auto;
+    padding: 200px;
+  }
 </style>
