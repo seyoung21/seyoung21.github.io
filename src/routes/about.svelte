@@ -4,7 +4,6 @@
 
 <script lang="ts">
 	  import Intro from "$lib/Intro.svelte";
-    import SideNavigation from "$lib/SideNavigation.svelte";
 </script>
 
 <svelte:head>

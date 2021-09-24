@@ -30,9 +30,9 @@ import { onMount } from "svelte";
   </div>
 
   <div class="social-media">
-    <a href="https://twitter.com/SeyoungPark21"><img id="twitter" src="/twitter.svg" alt="Twitter"></a>
-    <a href="https://www.behance.net/angelapark1"><img id="behance" src="/behance.svg" alt="Behance"></a>
-    <a href="https://www.youtube.com/channel/UCLIvcFP9LJmhTozEgr7Wf1w"><img id="youtube" src="/youtube.svg" alt="Youtube"></a>
+    <a href="https://twitter.com/SeyoungPark21"><img id="twitter" src="/social-media-icons/twitter.svg" alt="Twitter"></a>
+    <a href="https://www.behance.net/angelapark1"><img id="behance" src="/social-media-icons/behance.svg" alt="Behance"></a>
+    <a href="https://www.youtube.com/channel/UCLIvcFP9LJmhTozEgr7Wf1w"><img id="youtube" src="/social-media-icons/youtube.svg" alt="Youtube"></a>
   </div>
 
 </div>

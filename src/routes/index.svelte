@@ -3,7 +3,6 @@
 </script>
 
 <script lang="ts">
-  import SideNavigation from "$lib/SideNavigation.svelte";
   import Proj from "$lib/Project.svelte";
 </script>
 
@@ -29,17 +28,5 @@
   }
 
 
-/*
-  .heading {
-    font-size: 24px;
-    font-weight: 400;
-    color: #424242;
-  }
 
-  .subheading {
-    font-size: 18px;
-    font-weight: 400;
-    color: #424242;
-  }
-  */
 </style>
