@@ -2,7 +2,10 @@
     
 
     <div class="project-screenshot shadow-lg rounded">
-      <img id="deploifai-screenshot" src="/deploifai.png" alt="deploifai landing page"/>
+      <a href="/projects/deploifai-ui">
+        <img id="deploifai-screenshot" src="/deploifai.png" alt="deploifai landing page"/>
+      </a>
+      
     </div>
 
     <div class="project-screenshot shadow-lg rounded">
