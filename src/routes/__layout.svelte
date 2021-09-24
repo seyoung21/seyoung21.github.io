@@ -30,7 +30,7 @@ import SideNavigation from "$lib/SideNavigation.svelte";
 		max-width: 72rem;
 		width: 100%;
 		margin: auto;
-		padding-top: 100px;
+		padding-top: 80px;
 	
 	}
 	
