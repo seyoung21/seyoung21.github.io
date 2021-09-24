@@ -25,35 +25,33 @@ import { onMount } from "svelte";
   <div class="logo">
     <lottie-player src="/logo.json" background="transparent" speed="1"></lottie-player>
   </div>
-</div>
 
-<div class="side-column">
-  <h2><a href="#">About</a></h2>
-  <h2><a href="#">My Work</a></h2>
-</div>
+  <div class="side-column">
+    <h2><a href="src/routes/about.svelte">About</a></h2>
+    <h2><a href="src/routes/index.svelte">My Work</a></h2>
+  </div>
 
+</div>
 
 
 <style>
 	.container {
     display: flex;
-    align-items: center;
-    margin-bottom: 50px;
+    flex-direction: column;
     position: fixed;
-    width: 100%;
-    margin-top: 0;
+    align-content: center;
+    width: 10%;
+    /*border:5px solid blue;*/
   }
 
   .logo {
+    /* border:5px solid red;*/
     flex: 1;
-    padding: 130px;
-    max-width: 10px;
   }
 
   .side-column {
-    position: fixed;
-    padding-top: 300px;
-    padding-left: 150px;
+    padding-top: 50px;
+    flex: 1;
   }
 
 

@@ -11,22 +11,40 @@
 	<title>Park Seyoung</title>
 </svelte:head>
 
-<header>
-  <SideNavigation />
-</header>
+
+ 
 
 <div class="container">
-  <Proj />
+  <div class="sidenavigation-container">
+    <SideNavigation />
+  </div>
+  <div class="main-body-container">
+    <Proj />
+  </div>
+   
 </div>
 
 <style>
   .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     max-width: 72rem;
     width: 100%;
     margin: auto;
-    padding: 200px;
+    padding: 50px;
+  
+  }
+  
+  .sidenavigation-container{
+    flex: 1;
   }
 
+  .main-body-container {
+    flex: 3;
+  }
+
+/*
   .heading {
     font-size: 24px;
     font-weight: 400;
@@ -38,4 +56,5 @@
     font-weight: 400;
     color: #424242;
   }
+  */
 </style>
