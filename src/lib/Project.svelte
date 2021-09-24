@@ -1,7 +1,7 @@
 <div class="project">
     
 
-    <div class="project-screenshot">
+    <div class="project-thumbnail">
       <a href="/projects/deploifai-ui">
         <img id="deploifai-screenshot" src="/thumbnails/deploifai.png" alt="deploifai landing page"/>
         <div class="project-title">
@@ -12,13 +12,20 @@
   
     </div>
 
-    <div class="project-screenshot">
+    <div class="project-thumbnail">
       <img id="test" src="/thumbnails/sulli-thumbnail.png" alt="Sulli"/>
-
+      <div class="project-title">
+        <h2 class="heading">Lorem ipsum dolor sit amet</h2>
+        <h2 class="subheading">consectetur adipiscing elit</h2>
+       </div>
     </div>
 
-    <div class="project-screenshot">
+    <div class="project-thumbnail">
       <img id="test2" src="/thumbnails/coffeechat-thumbnail.png" alt="Coffeechat"/>
+      <div class="project-title">
+        <h2 class="heading">Lorem ipsum dolor sit amet</h2>
+        <h2 class="subheading">consectetur adipiscing elit</h2>
+       </div>
     </div>
     
   </div>
@@ -34,13 +41,17 @@
 
   .project-title {
     flex: 1;
-    padding: 40px;
+    padding-top: 10px;
   }
 
-  .project-screenshot {
+  .project-thumbnail {
     flex: 1;
     min-width: 400px;
-    padding: 10px;
+    border-radius: 8px;
   }
 
+
+  .project-thumbnail:hover {
+    background-color: #e1e1e1e1;
+  }
   </style>

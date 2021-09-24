@@ -19,7 +19,14 @@ import SideNavigation from "$lib/SideNavigation.svelte";
 		   
 </main>
 
-<footer>	
+<footer class="footer-container">
+	<div class="footer-logo">
+		<img src="favicon/png" alt="">
+	</div>
+	<div class="footer-text">
+		All rights reserved 2021
+	</div>
+	<div class="footer-socialslist"></div>
 </footer>
 
 <style>
@@ -40,5 +47,27 @@ import SideNavigation from "$lib/SideNavigation.svelte";
 	
 	.main-body-container {
 		flex: 5;
+		padding-bottom: 80px;
+	}
+
+	.footer-container{
+		height: 150px;
+		background: #424242;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.footer-logo {
+		flex: 1;
+
+	}
+
+	.footer-logo {
+		flex: 1;
+	}
+
+	.footer-logo {
+		flex: 1;
+
 	}
 </style>
