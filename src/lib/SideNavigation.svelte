@@ -19,8 +19,6 @@ import { onMount } from "svelte";
   })
 </script>
 
-
-
 <div class="container" bind:this="{container}">
   <div class="logo">
     <lottie-player src="/logo.json" background="transparent" speed="1"></lottie-player>
@@ -29,6 +27,12 @@ import { onMount } from "svelte";
   <div class="side-column">
     <h2><a href="/about">About</a></h2>
     <h2><a href="/">My Work</a></h2>
+  </div>
+
+  <div class="social-media">
+    <a href="https://twitter.com/SeyoungPark21"><img id="twitter" src="/twitter.svg" alt="Twitter"></a>
+    <a href="https://www.behance.net/angelapark1"><img id="behance" src="/behance.svg" alt="Behance"></a>
+    <a href="https://www.youtube.com/channel/UCLIvcFP9LJmhTozEgr7Wf1w"><img id="youtube" src="/youtube.svg" alt="Youtube"></a>
   </div>
 
 </div>
@@ -70,6 +74,32 @@ import { onMount } from "svelte";
   a:active {
   color: #424242;
   }
+
+  .social-media{
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    padding-left: 20px;
+  }
+
+  #twitter {
+    width: auto;
+    height: 14px;
+    padding-right: 12px;
+  }
+
+  #behance{
+    width: auto;
+    height: 20px;
+    padding-right: 12px;
+  }
+
+  #youtube{
+    width: auto;
+    height: 20px;
+  }
+
+
 
   lottie-player {
     width: 100px;

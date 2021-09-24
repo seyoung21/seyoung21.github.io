@@ -3,8 +3,6 @@ import "../app.postcss";
 import SideNavigation from "$lib/SideNavigation.svelte";
 </script>
 
-<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-
 <main>
 	<div class="container">
 		<div class="sidenavigation-container">
