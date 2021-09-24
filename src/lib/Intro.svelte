@@ -3,7 +3,7 @@
   <p class="description">I'm a designer but I can do a lot of other useful things. I can design websites, produce and edit videos and create video animation.</p>
   
   <div class="logo">
-    <lottie-player src="/logo.json" background="transparent" speed="1"></lottie-player>
+    <lottie-player src="/cat-box.json" background="transparent" speed="1" loop autoplay></lottie-player>
   </div>
   
   <p class="description">Also, I like cats.</p>
@@ -33,5 +33,10 @@
 
   .styled-color {
     color: #9499e2
+  }
+
+  lottie-player {
+    width: 300px;
+    height: auto;
   }
 </style>
