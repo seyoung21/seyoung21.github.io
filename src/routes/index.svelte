@@ -32,7 +32,7 @@
     max-width: 72rem;
     width: 100%;
     margin: auto;
-    padding: 50px;
+    padding-top: 100px;
   
   }
   
@@ -41,7 +41,7 @@
   }
 
   .main-body-container {
-    flex: 3;
+    flex: 5;
   }
 
 /*

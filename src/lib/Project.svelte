@@ -1,18 +1,42 @@
 <div class="project">
-    <div class="project-title">
-      <h2 class="heading">UI/UX research and design</h2>
-      <h2 class="subheading">@deploifai</h2>
-    </div>
+    
 
     <div class="project-screenshot shadow-lg rounded">
       <img id="deploifai-screenshot" src="/deploifai.png" alt="deploifai landing page"/>
     </div>
+
+    <div class="project-screenshot shadow-lg rounded">
+      <img id="test" src="/deploifai.png" alt="deploifai landing page"/>
+    </div>
+
+    <div class="project-screenshot shadow-lg rounded">
+      <img id="test2" src="/deploifai.png" alt="deploifai landing page"/>
+    </div>
+
+    <div class="project-screenshot shadow-lg rounded">
+      <img id="test3" src="/deploifai.png" alt="deploifai landing page"/>
+    </div>
+
+    <div class="project-screenshot shadow-lg rounded">
+      <img id="test4" src="/deploifai.png" alt="deploifai landing page"/>
+    </div>
+
+
+    <div class="project-screenshot shadow-lg rounded">
+      <img id="test5" src="/deploifai.png" alt="deploifai landing page"/>
+    </div>
+
+    <!--
+    <div class="project-title">
+      <h2 class="heading">UI/UX research and design</h2>
+      <h2 class="subheading">@deploifai</h2>
+    </div>-->
   </div>
 
   <style>
     .project {
     display: flex;
-    padding: 40px;
+    flex-wrap: wrap;
   }
 
   .project-title {
@@ -22,7 +46,9 @@
 
   .project-screenshot {
     flex: 1;
-    padding: 30px;
+    min-width: 400px;
+    padding: 40px;
+    padding-left: 40px;
   }
 
   </style>

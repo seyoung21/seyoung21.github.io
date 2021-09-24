@@ -27,8 +27,8 @@ import { onMount } from "svelte";
   </div>
 
   <div class="side-column">
-    <h2><a href="src/routes/about.svelte">About</a></h2>
-    <h2><a href="src/routes/index.svelte">My Work</a></h2>
+    <h2><a href="/about">About</a></h2>
+    <h2><a href="/">My Work</a></h2>
   </div>
 
 </div>
@@ -40,12 +40,12 @@ import { onMount } from "svelte";
     flex-direction: column;
     position: fixed;
     align-content: center;
-    width: 10%;
+    width: 15%;
     /*border:5px solid blue;*/
   }
 
   .logo {
-    /* border:5px solid red;*/
+    /*border:5px solid red;*/
     flex: 1;
   }
 
@@ -58,8 +58,17 @@ import { onMount } from "svelte";
   .side-column h2{
     font-weight: 400;
     padding-bottom: 20px;
+    padding-left: 20px;
     font-size: medium;
     color: #424242;
+  }
+
+  a:hover {
+  color: #9599E2;
+  }
+
+  a:active {
+  color: #424242;
   }
 
   lottie-player {
