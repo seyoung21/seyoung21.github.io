@@ -13,9 +13,7 @@
 
 
 <div class="container">
-  <div class="sidenavigation-container">
-    <SideNavigation />
-  </div>
+
   <div class="main-body-container">
     <Intro />
   </div>
@@ -31,16 +29,7 @@
     max-width: 72rem;
     width: 100%;
     margin: auto;
-    padding-top: 100px;
-
-  }
-  
-  .sidenavigation-container{
-    flex: 1;
   }
 
-  .main-body-container {
-    flex: 5;
-  }
 	 
 </style>
