@@ -3,10 +3,9 @@
 
     <div class="project-thumbnail">
       <a href="/projects/deploifai-ui">
-        <img id="deploifai-screenshot" src="/thumbnails/deploifai.png" alt="deploifai landing page"/>
+        <img id="deploifai-screenshot" src="/thumbnails/deploifai-landing.gif" alt="deploifai landing page"/>
         <div class="project-title">
-          <h3 class="heading">UI/UX research and design</h3>
-          <h3 class="subheading">Deploifai</h3>
+          <p class="heading">Creating SaaS End-to-End UIUX</p>
          </div>
       </a>
   
@@ -15,19 +14,27 @@
     <div class="project-thumbnail">
       <img id="test" src="/thumbnails/sulli-thumbnail.png" alt="Sulli"/>
       <div class="project-title">
-        <h3 class="heading">Lorem ipsum dolor sit amet</h3>
-        <h3 class="subheading">consectetur adipiscing elit</h3>
+        <p class="heading">Designing Online Learning Tool UIUX </p>
        </div>
     </div>
 
     <div class="project-thumbnail">
-      <img id="test2" src="/thumbnails/coffeechat-thumbnail.png" alt="Coffeechat"/>
+      <img id="coffechat" src="/thumbnails/coffeechat-thumbnail.png" alt="Coffeechat"/>
       <div class="project-title">
-        <h3 class="heading">Lorem ipsum dolor sit amet</h3>
-        <h3 class="subheading">consectetur adipiscing elit</h3>
+        <p class="heading">Designing Online Networking Platform UIUX</p>
        </div>
     </div>
     
+    <div class="project-thumbnail">
+      <a href="/projects/kinetic-typography-queendomintro">
+        <img id="queendom" src="/thumbnails/queendom-preview.gif" alt="Kinetic Typography Animation"/>
+        <div class="project-title">
+          <p class="heading">Kinetic Typography Animation</p>
+        </div>
+      </a>
+    
+    </div>
+
   </div>
 
   <style>
@@ -50,8 +57,15 @@
     border-radius: 8px;
   }
 
-
   .project-thumbnail:hover {
-    background-color: #e1e1e1e1;
+    opacity: 60%;
+  }
+
+  .heading {
+    font-weight: 400;
+  }
+
+  .subheading {
+    font-weight: 300;
   }
   </style>
