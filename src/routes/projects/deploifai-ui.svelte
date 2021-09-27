@@ -31,11 +31,13 @@
     color: #424242;
   }
 
+/*
   .subheading {
     font-size: 18px;
     font-weight: 400;
     color: #424242;
-  }
+  } 
+*/
 
   .description {
     font-size: 18px;
