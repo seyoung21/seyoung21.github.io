@@ -5,8 +5,8 @@
       <a href="/projects/deploifai-ui">
         <img id="deploifai-screenshot" src="/thumbnails/deploifai.png" alt="deploifai landing page"/>
         <div class="project-title">
-          <h2 class="heading">UI/UX research and design</h2>
-          <h2 class="subheading">Deploifai</h2>
+          <h3 class="heading">UI/UX research and design</h3>
+          <h3 class="subheading">Deploifai</h3>
          </div>
       </a>
   
@@ -15,16 +15,16 @@
     <div class="project-thumbnail">
       <img id="test" src="/thumbnails/sulli-thumbnail.png" alt="Sulli"/>
       <div class="project-title">
-        <h2 class="heading">Lorem ipsum dolor sit amet</h2>
-        <h2 class="subheading">consectetur adipiscing elit</h2>
+        <h3 class="heading">Lorem ipsum dolor sit amet</h3>
+        <h3 class="subheading">consectetur adipiscing elit</h3>
        </div>
     </div>
 
     <div class="project-thumbnail">
       <img id="test2" src="/thumbnails/coffeechat-thumbnail.png" alt="Coffeechat"/>
       <div class="project-title">
-        <h2 class="heading">Lorem ipsum dolor sit amet</h2>
-        <h2 class="subheading">consectetur adipiscing elit</h2>
+        <h3 class="heading">Lorem ipsum dolor sit amet</h3>
+        <h3 class="subheading">consectetur adipiscing elit</h3>
        </div>
     </div>
     
