@@ -22,7 +22,7 @@ import { onMount } from "svelte";
 
 <div class="container" bind:this="{container}">
   <div class="logo">
-    <lottie-player src="/logo.json" background="transparent" speed="1"></lottie-player>
+    <lottie-player src="/animations/logo.json" background="transparent" speed="1"></lottie-player>
   </div>
 
   <div class="side-column">
