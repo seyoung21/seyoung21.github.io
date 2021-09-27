@@ -12,17 +12,27 @@
     </div>
 
     <div class="project-thumbnail">
-      <img id="test" src="/thumbnails/sulli-thumbnail.png" alt="Sulli"/>
+      <img id="sulli" src="/thumbnails/sulli-thumbnail.png" alt="Sulli"/>
       <div class="project-title">
         <p class="heading">Designing Online Learning Tool UIUX </p>
        </div>
     </div>
+
 
     <div class="project-thumbnail">
       <img id="coffechat" src="/thumbnails/coffeechat-thumbnail.png" alt="Coffeechat"/>
       <div class="project-title">
         <p class="heading">Designing Online Networking Platform UIUX</p>
        </div>
+    </div>
+
+    <div class="project-thumbnail">
+      <a href="/projects/deploifai-promovid">
+        <img id="deploifai-promovid" src="/promovid-embed/yt-thumbnail-06.png" alt="Deploifai Promotion Video" onmouseover="this.src='/thumbnails/deploifai-promo-short.gif'" onmouseout="this.src='/promovid-embed/yt-thumbnail-06.png'"/>
+      <div class="project-title">
+        <p class="heading">Motion Graphic Promotional Video</p>
+       </div>
+      </a>
     </div>
     
     <div class="project-thumbnail">
@@ -38,6 +48,7 @@
   </div>
 
   <style>
+
     .project {
     display: grid;
     grid-template-columns: repeat(2, 400px [col-start]);

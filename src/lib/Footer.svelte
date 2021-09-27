@@ -54,7 +54,6 @@
 
 	.footer-socialslist {
 		flex: 1;
-        align: right
 
 	}
 
