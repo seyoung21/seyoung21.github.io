@@ -1,6 +1,7 @@
 <script lang="ts">
 import "../app.postcss";
 import SideNavigation from "$lib/SideNavigation.svelte";
+import SocialsList from "$lib/SocialsList.svelte"
 </script>
 
 <main>
@@ -21,12 +22,14 @@ import SideNavigation from "$lib/SideNavigation.svelte";
 
 <footer class="footer-container">
 	<div class="footer-logo">
-		<img src="favicon/png" alt="">
+		<img id="logo-white" src="logo-white.svg" alt="">
 	</div>
 	<div class="footer-text">
 		All rights reserved 2021
 	</div>
-	<div class="footer-socialslist"></div>
+	<div class="footer-socialslist">
+		<SocialsList />
+	</div>
 </footer>
 
 <style>
@@ -55,6 +58,7 @@ import SideNavigation from "$lib/SideNavigation.svelte";
 		background: #424242;
 		display: flex;
 		flex-direction: row;
+		align-content: center;
 	}
 
 	.footer-logo {
@@ -62,12 +66,19 @@ import SideNavigation from "$lib/SideNavigation.svelte";
 
 	}
 
-	.footer-logo {
+	.footer-text {
 		flex: 1;
+		color: white;
 	}
 
-	.footer-logo {
+	.footer-socialslist {
 		flex: 1;
+		fill: white;
 
+	}
+
+	#logo-white {
+		height: 60px;
+		width: auto;
 	}
 </style>
