@@ -30,4 +30,8 @@
     height: 20px;
   }
 
+  a:hover{
+      opacity: 50%;
+  }
+
 </style>

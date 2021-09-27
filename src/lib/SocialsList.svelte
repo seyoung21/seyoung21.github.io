@@ -12,7 +12,6 @@
     display: flex;
     padding-top: 30px;
     align-items: center;
-    padding-left: 20px;
   }
 
     #twitter {
@@ -32,5 +31,8 @@
     height: 20px;
   }
 
+  a:hover{
+      opacity: 50%;
+  }
 
 </style>

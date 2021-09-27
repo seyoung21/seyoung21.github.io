@@ -8,8 +8,11 @@
             <img id="logo-white" src="/brand/logo-white.svg" alt="">
         </div>
         <div class="footer-text">
-            &copy 2021 Seyoung Park 
-            <br> All rights reserved 
+            <p>
+                Copyright &copy 2021 Seyoung Park 
+            <br> All rights reserved.
+            </p>
+            
         </div>
         <div class="footer-socialslist">
             <SocialsListWhite />
@@ -45,7 +48,8 @@
 	.footer-text {
 		flex: 8;
         color: white;
-    
+        font-weight: 300;
+        font-size: small;
 	}
 
 	.footer-socialslist {

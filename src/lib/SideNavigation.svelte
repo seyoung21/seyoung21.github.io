@@ -25,6 +25,12 @@ import { onMount } from "svelte";
     <lottie-player src="/animations/logo.json" background="transparent" speed="1"></lottie-player>
   </div>
 
+  <div class="intro-sum">
+    <h2>
+      <span style="font-weight:400;">Seyoung Park </span>is a product designer based in HK who likes &#x1F3A5 and &#x1F408.
+    </h2>
+  </div>
+
   <div class="side-column">
     <h2><a href="/about">About</a></h2>
     <h2><a href="/">My Work</a></h2>
@@ -41,13 +47,18 @@ import { onMount } from "svelte";
     flex-direction: column;
     position: fixed;
     align-content: center;
-    width: 15%;
-    /*border:5px solid blue;*/
+    width: 12%;
+    padding-left: 20px;
   }
 
   .logo {
-    /*border:5px solid red;*/
     flex: 1;
+  }
+
+  .intro-sum {
+    flex: 1;
+    padding-top: 20px;
+    font-weight: 300;
   }
 
   .side-column {
@@ -59,7 +70,6 @@ import { onMount } from "svelte";
   .side-column h2{
     font-weight: 400;
     padding-bottom: 20px;
-    padding-left: 20px;
     font-size: medium;
     color: #424242;
   }
