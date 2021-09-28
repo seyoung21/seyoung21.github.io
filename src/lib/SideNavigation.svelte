@@ -21,9 +21,11 @@ import { onMount } from "svelte";
 </script>
 
 <div class="container" bind:this="{container}">
-  <div class="logo">
-    <lottie-player src="/animations/logo.json" background="transparent" speed="1"></lottie-player>
-  </div>
+  <a href="/">
+    <div class="logo">
+      <lottie-player src="/animations/logo.json" background="transparent" speed="1"></lottie-player>
+    </div>
+  </a>
 
   <div class="intro-sum">
     <h2>

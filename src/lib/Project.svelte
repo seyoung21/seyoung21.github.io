@@ -28,7 +28,7 @@
 
     <div class="project-thumbnail">
       <a href="/projects/deploifai-promovid">
-        <img id="deploifai-promovid" src="/promovid-embed/yt-thumbnail-06.png" alt="Deploifai Promotion Video" onmouseover="this.src='/thumbnails/deploifai-promo-short.gif'" onmouseout="this.src='/promovid-embed/yt-thumbnail-06.png'"/>
+        <img id="deploifai-promovid" src="/promovid-embed/deploifai-promovid-thumbnail.png" alt="Deploifai Promotion Video" onmouseover="this.src='/thumbnails/deploifai-promo-short.gif'" onmouseout="this.src='/promovid-embed/deploifai-promovid-thumbnail.png'"/>
       <div class="project-title">
         <p class="heading">Motion Graphic Promotional Video</p>
        </div>

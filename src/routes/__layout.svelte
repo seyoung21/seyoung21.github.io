@@ -41,7 +41,7 @@ import Footer from "$lib/Footer.svelte"
 	
 	.main-body-container {
 		flex: 5;
-		padding-bottom: 120px;
+		padding-bottom: 200px;
 	}
 
 </style>
