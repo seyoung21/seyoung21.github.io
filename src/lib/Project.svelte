@@ -5,7 +5,7 @@
       <a href="/projects/deploifai-ui">
         <img id="deploifai-screenshot" src="/thumbnails/deploifai-landing.gif" alt="deploifai landing page"/>
         <div class="project-title">
-          <p class="heading">Creating SaaS End-to-End UIUX</p>
+          <p class="heading">Creating End-to-End UIUX for SaaS company</p>
          </div>
       </a>
   
@@ -14,7 +14,7 @@
     <div class="project-thumbnail">
       <img id="sulli" src="/thumbnails/sulli-thumbnail.png" alt="Sulli"/>
       <div class="project-title">
-        <p class="heading">Designing Online Learning Tool UIUX </p>
+        <p class="heading">Designing UIUX for Online Learning Tool</p>
        </div>
     </div>
 
@@ -22,7 +22,7 @@
     <div class="project-thumbnail">
       <img id="coffechat" src="/thumbnails/coffeechat-thumbnail.png" alt="Coffeechat"/>
       <div class="project-title">
-        <p class="heading">Designing Online Networking Platform UIUX</p>
+        <p class="heading">Designing UIUX for Online Networking Platform</p>
        </div>
     </div>
 
