@@ -38,6 +38,10 @@ import { onMount } from "svelte";
 
   <SocialsList />
 
+  <div class="email-link">
+    <p>Interested in working with me? Send me an 
+    <span style="text-decoration:underline"> <a href="mailto:sy.park2548@gmail.com">Email</a></span></p>
+  </div>
 </div>
 
 
@@ -82,7 +86,10 @@ import { onMount } from "svelte";
   color: #424242;
   }
 
-
+  .email-link {
+    padding: 40px 0px;
+    font-size: small;
+  }
 
   lottie-player {
     width: 100px;
