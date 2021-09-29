@@ -22,4 +22,68 @@ p {
 
 @tailwind components;
 
+ hr {
+    border: 0;
+    height: 1px;
+	width: 40em; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 40px 0px 40px 0px;
+	place-self: center;
+} 
+
+.page-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #424242;
+    text-align: center;
+}
+
+.proj-date {
+    font-weight: 300;
+    font-size: small;
+    text-align: center;
+}
+
+.proj-metadata {
+    display: grid;
+    grid-template-columns: [scope] 150px [tools] 150px;
+    column-gap: 30px;
+    row-gap: 20px;
+    padding: 20px;
+    place-self: center;
+
+    font-weight: 300;
+    font-size: small;
+    text-align: center;
+}
+
+.skip-button {
+    font-size: smaller;
+    font-weight: 400;
+    color: #9599E2;
+    text-align: right;
+    padding: 10px;
+}
+
+
+.subheading {
+	font-size: 18px;
+	font-weight: 700;
+	color: #424242;
+	text-align: center;
+	padding: 20px;
+} 
+
+
+.description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #424242;
+    max-width: 40rem;
+    place-self: center;
+}
+
+
+
+
 @tailwind utilities

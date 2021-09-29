@@ -4,8 +4,30 @@
 
 
 <div class="container">
-<h2 class="heading"> Lorem ipsum dolor sit amet</h2>
-<p class="subheading"> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+<h2 class="page-title"> Kinetic Typography Lyric Video (Korean)</h2>
+
+<p class="proj-date"> September 2021</p>
+  <div class="proj-metadata">
+      <div class="proj-scope">
+        <p>
+           <span style="font-weight: 400;">Scope</span>
+          <br/>Kinetic Typography
+          <br/>Motion Graphics
+        </p>
+      </div>
+      <div class="proj-tools">
+        <p>
+          <span style="font-weight: 400;">Tools</span>
+         <br/>Adobe After Effects
+       </p>
+      </div>
+  </div>
+
+
+<div class="skip-button"><a href="#final-product">SKIP TO FINAL PRODUCT</a></div>
+
+
+<p class="subheading" id="final-product">Final Product</p>
 <div class="video-embed">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/--37wvhcP-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -31,30 +53,4 @@
       padding: 20px;
   }
 
-  .heading {
-    font-size: 24px;
-    font-weight: 700;
-    color: #424242;
-  }
-
-
-  .subheading {
-    font-size: 18px;
-    font-weight: 400;
-    color: #424242;
-  } 
-
-
-  .description {
-    font-size: 18px;
-    font-weight: 400;
-    color: #424242;
-  }
-
-  /* #image1 {
-      width: 500px;
-      height: auto;
-      align-self: center;
-      padding: 20px;
-  } */
 </style>
