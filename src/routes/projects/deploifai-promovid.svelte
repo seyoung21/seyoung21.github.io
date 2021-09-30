@@ -28,7 +28,7 @@
 
   <p class="subheading">Scratching the Itch</p>
   <p class="description">
-    <span style="font-weight: 700; text-decoration: underline;"><a href="https://deploif.ai/">Deploifai</a></span> is a SaaS company that provides infrastructure to ship machine learning models faster and simpler. 
+    <a href="https://deploif.ai/" style="font-weight: 700; text-decoration: underline;">Deploifai</a> is a SaaS company that provides infrastructure to ship machine learning models faster and simpler. 
     Once Deploifai has built the MVP (minimum viable product), the goal was to establish an online presence and raise awareness about the necessity of our product.
     <br>  
     <br/>We had <span style="color: #9599E2;">three objectives</span> for producing a promotional video. 
@@ -41,7 +41,11 @@
 
   <p class="subheading">Storyboarding</p>
   <img src="/promovid-embed/storyboard.png" alt="storyboard" id="storyboard">
-  <p class="description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p class="description">
+    After discussing with the developers on the team to choose our direction, I created a mockup storyboard on Adobe Illustrator. As this video was a mixture of kinetic typography and motion graphic design, I used this step to try out different colors, layout, and typography. 
+    <br>
+    <br>The music was choosen from the free resource, <a href="pixhttps://pixabay.com/music/" style="text-decoration: underline;">Pixabay Music</a>. I used the music as reference when creating the storyboard to ensure the timing will be appropriate.
+  </p>
 
   <hr/>
 
@@ -59,7 +63,9 @@
       <img src="/promovid-embed/drag_drop.gif" alt="">
     </div>
   </div>
-  <p class="description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p class="description">
+    Above animations were created using Adobe After Effects to be used a svg animation elements in the company landing page to describe how Deploifai works. Since the feedback for these animations were positive when embeded in the landing page, I considered them suitable to be used for the promotional video also. 
+  </p>
 
   <hr/>
 
@@ -111,7 +117,6 @@
       height: auto;
       align-self: center;
       padding-bottom: 20px;
-      opacity: 80%;
   }
 
 </style>
