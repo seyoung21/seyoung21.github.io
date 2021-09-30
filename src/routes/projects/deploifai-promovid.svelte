@@ -37,17 +37,10 @@
     <li>2. Communicate the simplicity of using Deploifai as a solution</li>
     <li>3. Establish a brand presence as a SaaS company</li>
   </p>
-
-   
-
-
-
-    
-
-
   <hr/>
 
   <p class="subheading">Storyboarding</p>
+  <img src="/promovid-embed/storyboard.png" alt="storyboard" id="storyboard">
   <p class="description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
   <hr/>
@@ -113,21 +106,12 @@
     padding: 60px;
   }
 
-  
-
-
-
-
-
-  
-
-
-
-
-  /* #image1 {
+#storyboard {
       width: 500px;
       height: auto;
       align-self: center;
-      padding: 20px;
-  } */
+      padding-bottom: 20px;
+      opacity: 80%;
+  }
+
 </style>
