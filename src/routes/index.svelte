@@ -26,7 +26,4 @@
     width: 100%;
     margin: auto;  
   }
-
-
-
 </style>

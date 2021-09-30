@@ -9,6 +9,18 @@
   <p class="description">Also, I like cats.</p>
 </div>
 
+<hr>
+
+<div class="py-4">
+  <h2>Free resources by me:</h2>
+</div>
+<div class="link-compilation">
+  <p><span style="text-decoration: underline; font-weight: 700;"><a href="https://deploifai.notion.site/c02b5de92b0c416ead188b0871c46a38?v=89cc21ad72f64f61ae2f6ae327f63911">Design Resources</a></span> 
+    - compilation of online design resources for everyone's references</p>
+</div>
+  
+
+
 <style>
   .intro {
     display: flex;
