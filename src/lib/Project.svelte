@@ -12,18 +12,24 @@
     </div>
 
     <div class="project-thumbnail">
-      <img id="sulli" src="/thumbnails/sulli-thumbnail.png" alt="Sulli"/>
+      <a href="https://www.behance.net/gallery/110934035/Sulli-New-dimension-to-online-learning">
+        <img id="sulli" src="/thumbnails/sulli-thumbnail.png" alt="Sulli"/>
       <div class="project-title">
         <p class="heading">Designing UIUX for Online Learning Tool</p>
        </div>
+      </a>
+      
     </div>
 
 
     <div class="project-thumbnail">
-      <img id="coffechat" src="/thumbnails/coffeechat-thumbnail.png" alt="Coffeechat"/>
-      <div class="project-title">
-        <p class="heading">Designing UIUX for Online Networking Platform</p>
-       </div>
+      <a href="https://www.behance.net/gallery/113532409/CoffeeChat-Web-UIUX-Design">
+        <img id="coffechat" src="/thumbnails/coffeechat-thumbnail.png" alt="Coffeechat"/>
+        <div class="project-title">
+          <p class="heading">Designing UIUX for Online Networking Platform</p>
+        </div>
+      </a>
+      
     </div>
 
     <div class="project-thumbnail">
@@ -50,35 +56,33 @@
   <style>
 
     .project {
-    display: grid;
-    grid-template-columns: repeat(2, 400px [col-start]);
-    column-gap: 30px;
-    row-gap: 20px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr [col-start]);
+      column-gap: 30px;
+      row-gap: 20px;
+    }
 
-  }
+    .project-title {
+      flex: 1;
+      padding-top: 10px;
+    }
 
-  .project-title {
-    flex: 1;
-    padding-top: 10px;
-  }
+    .project-thumbnail {
+      flex: 1;
+      border-radius: 8px;
+    }
 
-  .project-thumbnail {
-    flex: 1;
-    min-width: 400px;
-    border-radius: 8px;
-  }
+    .project-thumbnail:hover {
+      opacity: 60%;
+    }
 
-  .project-thumbnail:hover {
-    opacity: 60%;
-  }
+    .heading {
+      font-weight: 400;
+    }
 
-  .heading {
-    font-weight: 400;
-  }
-
-  .subheading {
-    font-weight: 300;
-  }
+    .subheading {
+      font-weight: 300;
+    }
 
   
   </style>

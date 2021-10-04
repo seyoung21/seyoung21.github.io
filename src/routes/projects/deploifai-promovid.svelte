@@ -26,7 +26,7 @@
 
   <div class="skip-button"><a href="#final-product">SKIP TO FINAL PRODUCT</a></div>
 
-  <p class="subheading">Scratching the Itch</p>
+  <p class="subheading">Scratching the Itch - Targeting User's Pain Points</p>
   <p class="description">
     <a href="https://deploif.ai/" style="font-weight: 700; text-decoration: underline;">Deploifai</a> is a SaaS company that provides infrastructure to ship machine learning models faster and simpler. 
     Once Deploifai has built the MVP (minimum viable product), the goal was to establish an online presence and raise awareness about the necessity of our product.
@@ -75,7 +75,8 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/0GZFtz_O3KI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 
-<p class="description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p class="description">The final video was published on multiple platforms such as <a href="https://www.producthunt.com/posts/deploifai" style="text-decoration: underline;">Product Hunt</a>, Twitter, and YouTube to promote <a href="https://deploif.ai/" style="text-decoration: underline;">Deploifai</a> and its solution for ML developers' pain points. 
+  It received more than <span style="font-weight: 700;"> 800 impressions on Twitter and nearly 50 impressions on Product Hunt,</span>. As the product launches more functions to improve MLops journey for developers and data scientists, we plan on producing more promotional videos in a similar style.</p>
 
 
 

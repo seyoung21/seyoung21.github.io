@@ -6,17 +6,13 @@ import Footer from "$lib/Footer.svelte"
 
 <main>
 	<div class="container">
-		<div class="sidenavigation-container">
+		<div class="sidenavigation-container hidden lg:flex">
 		  <SideNavigation />
 		</div>
-		<div class="main-body-container">
+		<div class="lg:flex-5 lg:pl-60 pb-40 lg:pb-96">
 			<slot />
 		</div>
-		 
-	  </div>
-	  
-
-		   
+  </div>
 </main>
 
 <footer>
@@ -25,24 +21,9 @@ import Footer from "$lib/Footer.svelte"
 
 <style>
 	.container {
-		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		max-width: 72rem;
-		width: 100%;
 		margin: auto;
 		padding-top: 80px;
-	
 	}
-	
-	.sidenavigation-container{
-		flex: 1;
-	}
-	
-	.main-body-container {
-		flex: 5;
-		padding-bottom: 200px;
-		padding-left: 60px;
-	}
-
 </style>
