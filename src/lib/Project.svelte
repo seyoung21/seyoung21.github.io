@@ -2,7 +2,7 @@
     
 
     <div class="project-thumbnail">
-      <a href="/projects/deploifai-ui">
+      <a href="/projects/deploifai-landing">
         <img id="deploifai-screenshot" src="/thumbnails/deploifai-landing.gif" alt="deploifai landing page"/>
         <div class="project-title">
           <p class="heading">Creating End-to-End UIUX for SaaS company</p>
