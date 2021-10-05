@@ -50,7 +50,7 @@
     confident message of the original artist. The biggest challenge was keeping the tension and the
     fast pace of the lyrics but maintaining the legibility.
     <br />
-    <br />To overcome this challenge, I choose a blocky san serif font that shared a similar weight
+    <br />To overcome this challenge, I chose a blocky san serif font that shared a similar weight
     in both Korean and English. I used masking and lowered opacity to create a sense of depth
     between the background elements and create emphasis on the main lyrics.
   </p>

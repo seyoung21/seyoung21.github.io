@@ -71,7 +71,7 @@
 
   <hr />
 
-  <p class="subheading">Creating Header Animation</p>
+  <p class="subheading">Creating the Header Animation</p>
   <p class="description pb-6">
     Since I have joined Deploifai, I kept a subtle outerspace theme throughout the product as a
     reference to the word 'deploy' also being used for sending satellite into orbit.
@@ -108,11 +108,10 @@
     alt="Deploifai New UI Design"
   />
 
-  <p class="description">
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-    deserunt mollit anim id est laborum.
+  <p class="description pt-6">
+    Some adjustments were made in the UI in the development stage to adapt to the reactive layout
+    (i.e: mobile version). Overall, we moved away from the gradient theme from the original website
+    design and adopted a more toned-down theme of navy blue and dark gray to look professional.
   </p>
 </div>
 
@@ -127,18 +126,11 @@
     margin: auto;
   }
 
-  #image1 {
-    width: 500px;
-    height: auto;
-    align-self: center;
-    padding: 20px;
-  }
-
   li {
     list-style-type: '□';
   }
 
-  span {
+  li span {
     position: relative;
     left: 12px;
   }
