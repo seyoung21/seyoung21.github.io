@@ -1,24 +1,20 @@
 <script context="module" lang="ts">
-	export const prerender = true;
+  export const prerender = true;
 </script>
 
 <script lang="ts">
-	  import Intro from "$lib/Intro.svelte";
+  import Intro from '$lib/Intro.svelte';
 </script>
 
 <svelte:head>
-	<title>About</title>
+  <title>About</title>
 </svelte:head>
 
-
 <div class="container">
-
   <div class="main-body-container">
     <Intro />
   </div>
-   
 </div>
-
 
 <style>
   .container {
@@ -28,6 +24,4 @@
     width: 100%;
     margin: auto;
   }
-
-	 
 </style>

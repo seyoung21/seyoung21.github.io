@@ -1,20 +1,19 @@
 <script context="module" lang="ts">
-	export const prerender = true;
+  export const prerender = true;
 </script>
 
 <script lang="ts">
-  import Proj from "$lib/Project.svelte";
+  import Proj from '$lib/Project.svelte';
 </script>
 
 <svelte:head>
-	<title>Park Seyoung</title>
+  <title>Park Seyoung</title>
 </svelte:head>
 
 <div class="container">
   <div class="main-body-container">
     <Proj />
   </div>
-   
 </div>
 
 <style>
@@ -24,6 +23,6 @@
     justify-content: center;
     max-width: 72rem;
     width: 100%;
-    margin: auto;  
+    margin: auto;
   }
 </style>

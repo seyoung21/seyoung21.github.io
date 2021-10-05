@@ -1,35 +1,36 @@
 <script>
-  import SocialsList from "$lib/SocialsList.svelte";
-import { onMount } from "svelte";
+  import SocialsList from '$lib/SocialsList.svelte';
+  import { onMount } from 'svelte';
 
   let container;
 
   onMount(() => {
-    const logoContainer = container.querySelector(".logo");
-    logoContainer.addEventListener("mouseover", () => {
-      const player = logoContainer.querySelector("lottie-player");
+    const logoContainer = container.querySelector('.logo');
+    logoContainer.addEventListener('mouseover', () => {
+      const player = logoContainer.querySelector('lottie-player');
       player.setDirection(1);
       player.play();
     });
 
-    logoContainer.addEventListener("mouseleave", () => {
-      const player = logoContainer.querySelector("lottie-player");
+    logoContainer.addEventListener('mouseleave', () => {
+      const player = logoContainer.querySelector('lottie-player');
       player.setDirection(-1);
       player.play();
     });
-  })
+  });
 </script>
 
-<div class="container" bind:this="{container}">
+<div class="container" bind:this={container}>
   <a href="/">
     <div class="logo">
-      <lottie-player src="/animations/logo.json" background="transparent" speed="1"></lottie-player>
+      <lottie-player src="/animations/logo.json" background="transparent" speed="1" />
     </div>
   </a>
 
   <div class="intro-sum">
     <h2>
-      <span style="font-weight:400;">Seyoung Park </span>is a product designer based in HK who likes &#x1F3A5 and &#x1F408.
+      <span style="font-weight:400;">Seyoung Park </span>is a product designer based in HK who likes
+      &#x1F3A5 and &#x1F408.
     </h2>
   </div>
 
@@ -41,14 +42,17 @@ import { onMount } from "svelte";
   <SocialsList />
 
   <div class="email-link">
-    <p>Interested in working with me? Send me an 
-    <span style="text-decoration:underline"> <a href="mailto:sy.park2548@gmail.com">Email</a></span></p>
+    <p>
+      Interested in working with me? Send me an
+      <span style="text-decoration:underline">
+        <a href="mailto:sy.park2548@gmail.com">Email</a></span
+      >
+    </p>
   </div>
 </div>
 
-
 <style>
-	.container {
+  .container {
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -72,8 +76,7 @@ import { onMount } from "svelte";
     flex: 1;
   }
 
-
-  .side-column h2{
+  .side-column h2 {
     font-weight: 400;
     padding-bottom: 20px;
     font-size: medium;
@@ -81,11 +84,11 @@ import { onMount } from "svelte";
   }
 
   a:hover {
-  color: #9599E2;
+    color: #9599e2;
   }
 
   a:active {
-  color: #424242;
+    color: #424242;
   }
 
   .email-link {
