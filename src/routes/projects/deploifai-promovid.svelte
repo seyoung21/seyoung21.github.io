@@ -29,17 +29,26 @@
   <p class="description">
     <a href="https://deploif.ai/" style="font-weight: 700; text-decoration: underline;">Deploifai</a
     >
-    is a SaaS company that provides infrastructure to ship machine learning models faster and simpler.
+    is a SaaS company that provides an infrastructure to ship machine learning models faster and simpler.
     Once Deploifai has built the MVP (minimum viable product), the goal was to establish an online presence
     and raise awareness about the necessity of our product.
     <br />
     <br />We had <span style="color: #9599E2;">three objectives</span> for producing a promotional
     video.
-    <br />
+    <!-- <br />
     <li>1. Empathize with developers' pain points in deploying ML models</li>
     <li>2. Communicate the simplicity of using Deploifai as a solution</li>
-    <li>3. Establish a brand presence as a SaaS company</li>
+    <li>3. Establish a brand presence as a SaaS company</li> -->
   </p>
+
+  <div class="self-center p-10 bg-indigo-50 drop-shadow-md m-10">
+    <h2 class="text-xl text-left font-bold pb-2">&#x1F3AF Goals</h2>
+    <ol>
+      <li><span>Empathize with developers' pain points in deploying ML models</span></li>
+      <li><span>Communicate the simplicity of using Deploifai as a solution</span></li>
+      <li><span>Establish a brand presence as a SaaS company</span></li>
+    </ol>
+  </div>
   <hr />
 
   <p class="subheading">Storyboarding</p>
@@ -47,7 +56,7 @@
   <p class="description">
     After discussing with the developers on the team to choose our direction, I created a mockup
     storyboard on Adobe Illustrator. As this video was a mixture of kinetic typography and motion
-    graphic design, I used this step to try out different colors, layout, and typography.
+    graphic design, I used this step to try out different colours, layouts, and typography.
     <br />
     <br />The music was choosen from the free resource,
     <a href="pixhttps://pixabay.com/music/" style="text-decoration: underline;">Pixabay Music</a>. I
@@ -72,10 +81,10 @@
     </div>
   </div>
   <p class="description">
-    Above animations were created using Adobe After Effects to be used a SVG animation elements in
+    The above animations were created using Adobe After Effects to be used SVG animation elements in
     the company landing page to describe how Deploifai works. Since the feedback for these
-    animations were positive when embeded in the landing page, I considered them suitable to be used
-    for the promotional video also.
+    animations were positive when embedded in the landing page, I considered them suitable to be
+    used for the promotional video also.
   </p>
 
   <hr />
@@ -102,7 +111,7 @@
     <a href="https://deploif.ai/" style="text-decoration: underline;">Deploifai</a>
     and its solution for ML developers' pain points. It received more than
     <span style="font-weight: 700;">
-      800 impressions on Twitter and nearly 50 impressions on Product Hunt,</span
+      800 impressions on Twitter and nearly 50 impressions on Product Hunt</span
     >. As the product launches more functions to improve MLops journey for developers and data
     scientists, we plan on producing more promotional videos in a similar style.
   </p>
@@ -141,5 +150,22 @@
     height: auto;
     align-self: center;
     padding-bottom: 20px;
+  }
+
+  li {
+    list-style-type: decimal;
+    list-style-position: inside;
+    line-height: 200%;
+  }
+
+  li span {
+    position: relative;
+    left: 12px;
+  }
+
+  li::marker {
+    color: #9599e2;
+    font-size: medium;
+    font-weight: bold;
   }
 </style>

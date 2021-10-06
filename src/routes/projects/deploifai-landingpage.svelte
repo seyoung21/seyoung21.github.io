@@ -55,7 +55,7 @@
       href="https://mlops.toys/"
       style="text-decoration: underline;">MLOps.toys</a
     >
-    to see what elements that our potential users will be looking for in the landing page.
+    to see what elements that our potential users will be looking for on the landing page.
     <br />
     <br />Through my research, I picked out the elements that should be our priority in redesigning.
   </p>
@@ -73,12 +73,12 @@
 
   <p class="subheading">Creating the Header Animation</p>
   <p class="description pb-6">
-    Since I have joined Deploifai, I kept a subtle outerspace theme throughout the product as a
-    reference to the word 'deploy' also being used for sending satellite into orbit.
+    Since I have joined Deploifai, I kept a subtle outer space theme throughout the product as a
+    wordplay to the verb 'deploy' also being used for sending a satellite into orbit.
     <br />
     <br />I first designed the elements on Adobe Illustrator and imported the vectors in Adobe
-    Aftereffect to animate them. Then I exported it into a Lottie file, a SVG animation, to allow
-    faster loading speed when embeded into the landing page.
+    Aftereffect to animate them. Then I exported it into a Lottie file, an SVG animation, to allow
+    faster loading speed when embedded into the landing page.
   </p>
 
   <lottie-player
@@ -111,7 +111,7 @@
   <p class="description pt-6">
     Some adjustments were made in the UI in the development stage to adapt to the reactive layout
     (i.e: mobile version). Overall, we moved away from the gradient theme from the original website
-    design and adopted a more toned-down theme of navy blue and dark gray to look professional.
+    design and adopted a more toned-down theme of navy blue and dark grey to look professional.
   </p>
 </div>
 

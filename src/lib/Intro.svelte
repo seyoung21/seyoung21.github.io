@@ -2,7 +2,7 @@
   <h2 class="title">Hi, I'm <span class="styled-color">Seyoung Park</span></h2>
   <p class="description">
     I'm a designer but I can do a lot of other useful things. I can design websites, produce and
-    edit videos and create video animation.
+    edit videos and create vector animation.
   </p>
 
   <div class="logo">

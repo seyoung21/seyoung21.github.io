@@ -45,7 +45,7 @@
     <p>
       Interested in working with me? Send me an
       <span style="text-decoration:underline">
-        <a href="mailto:sy.park2548@gmail.com">Email</a></span
+        <a href="mailto:simplyseyoung@gmail.com">Email</a></span
       >
     </p>
   </div>
