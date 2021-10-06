@@ -7,7 +7,7 @@
         alt="deploifai landing page"
       />
       <div class="project-title">
-        <p class="heading">Creating End-to-End UIUX for SaaS company</p>
+        <p class="heading">Creating UIUX for SaaS company page</p>
       </div>
     </a>
   </div>
