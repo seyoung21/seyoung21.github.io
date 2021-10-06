@@ -9,7 +9,7 @@
     </div>
     <div class="footer-text">
       <p>
-        Copyright &copy 2021 Seyoung Park
+        Copyright &copy 2021 Seyoung Park.
         <br /> All rights reserved.
       </p>
     </div>

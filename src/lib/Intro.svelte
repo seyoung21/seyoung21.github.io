@@ -35,6 +35,12 @@
   </p>
 </div>
 
+<p class="font-normal text-base pt-20">
+  I built this using <a href="https://svelte.dev/" class="underline">Svelte</a> using HTML and CSS.
+  Check out my code on
+  <a href="https://github.com/seyoung21/seyoung21.github.io" class="underline">GitHub</a>.
+</p>
+
 <style>
   .intro {
     display: flex;
