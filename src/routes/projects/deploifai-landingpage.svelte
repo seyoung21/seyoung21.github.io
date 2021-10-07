@@ -3,7 +3,7 @@
 </svelte:head>
 
 <div class="container">
-  <h2 class="page-title">Creating End-to-End UIUX for SaaS company</h2>
+  <h2 class="page-title">Creating UIUX for SaaS company</h2>
 
   <p class="proj-date">September 2021</p>
   <div class="proj-metadata">
