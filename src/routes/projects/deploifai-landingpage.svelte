@@ -136,7 +136,7 @@
   <hr />
 
   <p class="subheading" id="final-product">Final Product</p>
-  <p class="description italic font-thin text-sm pb-4 text-gray-500">
+  <p class="description italic font-medium text-md pb-4 text-gray-500">
     You can check it out live <a href="https://deploif.ai/" style="text-decoration: underline;"
       >here</a
     >
