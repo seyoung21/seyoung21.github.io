@@ -24,7 +24,7 @@
 
   <div class="skip-button"><a href="#final-product">SKIP TO FINAL PRODUCT</a></div>
 
-  <div class="subheading">Purpose</div>
+  <div class="subheading">Experimenting with Motion and Timing</div>
   <div class="description">
     This project was a personal endeavour to further develop my video editing and animation skills.
     The audio is of a Korean artist, Jeon So-Yeon, when she wrote an original rap to introduce her
