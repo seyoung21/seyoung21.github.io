@@ -62,10 +62,10 @@
   <div class="checklist self-center p-10 bg-indigo-50 drop-shadow-md m-10">
     <h2 class="text-xl text-left font-bold pb-2">&#x1F58A Checklist</h2>
     <p class="description">
+      <li><span>Catchy header animation</span></li>
       <li><span>Detailed product walkthrough</span></li>
       <li><span>Third-party integrations supported</span></li>
       <li><span>Abbreviated FaQ section</span></li>
-      <li><span>Catchy header animation</span></li>
     </p>
   </div>
 
@@ -91,6 +91,46 @@
   <p class="caption w-45">
     Each of the three planets represents to three steps <br />
     in MLOps that Deploifai automates and supports.
+  </p>
+
+  <hr />
+  <p class="subheading">Presenting a convincing product walkthrough</p>
+  <p class="description pb-6">
+    Creating a simple functional product walkthrough was a challenge as it required significant
+    collaboration with the engineering team. I did not have the advanced technical background to
+    explain the intricate selling points of the platform.
+    <br />
+    <br />After discussion with the engineering team, I learned that many developers refer to the
+    Documentation page to determine whether the product will be compatible with their projects.
+    Instead, the landing page should target the business decision-making-units (DMU) such as Buyers
+    and Deciders.
+  </p>
+
+  <img
+    src="/dep-landing/target-audience.png"
+    class="w-2/5 self-center drop-shadow-md rounded-md"
+    alt="Target Audience User Flow"
+  />
+  <p class="caption">Target Audience User Flow</p>
+
+  <p class="description">
+    Therefore, we briefly outlined the functions of each core feature and the integrations
+    supported. We also produced a few step-by-step tutorial videos averaging approximately 5 min
+    each and embedded them as a pop-up player within the same page. This served the purpose of
+    keeping the visitors on the page longer as well as keeping the user experience light and
+    responsive.
+  </p>
+
+  <hr />
+  <p class="subheading">Minimizing stress with industry-standard integrations</p>
+  <p class="description">
+    The key brand value of Deploifai is minimizing friction and time in every stage of MLOps. The
+    purpose of many MLOps tools in the market is to save the users time and money. While this might
+    be true, many platforms have an entry barrier or a steep learning curve.
+    <br />
+    <br /> Therefore, we saw an opportunity in emphasizing the minimal friction in adopting our platform
+    by clearly listing out industry-standard integrations. Simple copywriting like "Bring your own cloud
+    service" was adopted for the same rationale.
   </p>
 
   <hr />
