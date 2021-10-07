@@ -108,10 +108,10 @@
 
   <img
     src="/dep-landing/target-audience.png"
-    class="w-2/5 self-center drop-shadow-md rounded-md"
+    class="w-2/5 self-center drop-shadow-md rounded-md pt-2"
     alt="Target Audience User Flow"
   />
-  <p class="caption">Target Audience User Flow</p>
+  <p class="caption pb-4">Target Audience User Flow</p>
 
   <p class="description">
     Therefore, we briefly outlined the functions of each core feature and the integrations
@@ -148,7 +148,8 @@
     alt="Deploifai New UI Design"
   />
 
-  <p class="description pt-6">
+  <p class="subheading pt-8">Final Comments</p>
+  <p class="description">
     Some adjustments were made in the UI in the development stage to adapt to the reactive layout
     (i.e: mobile version). Overall, we moved away from the gradient theme from the original website
     design and adopted a more toned-down theme of navy blue and dark grey to look professional.
