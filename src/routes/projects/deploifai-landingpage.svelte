@@ -44,7 +44,7 @@
   <p class="description">
     <br /> When proceeding with the redesign, I kept the elements that received positive feedback (simplicity
     & engagement with vector animations) and focused on adding what potential users will be looking for
-    in trying a new MLops product.
+    in trying a new MLOps product.
   </p>
 
   <hr />
@@ -115,7 +115,7 @@
 
   <p class="description">
     Therefore, we briefly outlined the functions of each core feature and the integrations
-    supported. We also produced a few step-by-step tutorial videos averaging approximately 5 min
+    supported. We also produced a few step-by-step tutorial videos averaging approximately 5 minutes
     each and embedded them as a pop-up player within the same page. This served the purpose of
     keeping the visitors on the page longer as well as keeping the user experience light and
     responsive.

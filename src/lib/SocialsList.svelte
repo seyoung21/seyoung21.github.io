@@ -8,6 +8,10 @@
   <a href="https://www.youtube.com/channel/UCLIvcFP9LJmhTozEgr7Wf1w"
     ><img id="youtube" src="/social-media-icons/youtube.svg" alt="Youtube" /></a
   >
+
+  <a href="https://medium.com/@sypark21"
+    ><img id="medium" src="/social-media-icons/medium.svg" alt="Medium" /></a
+  >
 </div>
 
 <style>
@@ -32,6 +36,12 @@
   #youtube {
     width: auto;
     height: 20px;
+    padding-right: 12px;
+  }
+
+  #medium {
+    width: auto;
+    height: 14px;
   }
 
   a:hover {
